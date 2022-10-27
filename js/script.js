@@ -70,9 +70,7 @@ createApp({
         console.log(activeIndex);
     },
     hover(){
-        clearInterval(this.autoScrool)
-    },
-    nonhover(){
+        clearInterval(this.autoScrool);
         this.autoScrool = null;
     },
     autoscrool(){
