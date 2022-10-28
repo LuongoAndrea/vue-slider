@@ -59,15 +59,13 @@ createApp({
         if(this.activeIndex < 0){
             this.activeIndex = this.movie.length - 1
         }
-        console.log(activeIndex);
-
     },
     next(){
         this.activeIndex++
         if(this.activeIndex > this.movie.length - 1){
             this.activeIndex = 0
         }
-        console.log(activeIndex);
+    
     },
     hover(){
         clearInterval(this.autoScrool);
